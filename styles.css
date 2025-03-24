@@ -30,13 +30,13 @@
     color: white;
 }
 
-html, body {
+html, body{
     height: 100%; 
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     background-color: black;
 }
 
@@ -85,8 +85,10 @@ body {
 .upgradeButton:hover{
     background-color: lightgray;
     cursor: pointer;
+    box-shadow: 0px 4px 8px gray;
 }
 
 .upgradeButton:active{
     background-color: white;
+    box-shadow: 0px 4px 8px black;
 }
