@@ -1,0 +1,92 @@
+.cookie {
+    font-size: 250%;
+    padding: 1%;
+    transition: background-color 0.2s, font-size 0.05s ease-out;
+}
+
+.cookie:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.cookie:active{
+    font-size: 270%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.cookiesCounter{
+    font-size: 300%;
+    font-family: system-ui;
+    color: white;
+}
+
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.midButtonContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.midButton{
+    font-size: 120%;
+    width: 100%;
+    padding: 1%;
+    transition: background-color 0.2s, font-size ease-out 0.05s;;
+}
+
+.midButton:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.midButton:active{
+    font-size: 130%;
+}
+
+.upgradeMenu{
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.upgradeButton{
+    font-size: 150%;
+    margin: 0;
+    padding: 15px;
+    border: none;
+    color: black;
+    background-color: gray;
+    transition: background-color, 0.25s;
+}
+
+.upgradeButton:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.upgradeButton:active{
+    background-color: white;
+}

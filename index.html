@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie clicka</title>
+    <script src="index.js" defer></script>
+    <link rel = "stylesheet" type = "text/css" href = "styles.css"> 
+</head>
+<body>
+    <div class="upgradeMenu">
+        <button class="upgradeButton" id="upgradeClick" onclick="upgradeClick()">upgrade clicking required: 20</button>
+    </div>
+    <div class="main">
+        <span id="cookiesCounter" class="cookiesCounter">0</span>
+        <button onclick="addCookie()" class="cookie">Click me</button>
+        <div class="midButtonContainer">
+            <button onclick="resetCookies()" class="midButton" id="reset">Reset everything</button>
+        </div>
+    </div>
+</body>
+</html>
